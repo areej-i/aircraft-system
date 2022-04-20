@@ -21,9 +21,9 @@ void Control::launch(){
         view.showMenu(choice);
         switch(choice){
             case 1: al.printAircraft(); break;
-            case 2: al.printParts(); cout << "hi"; break;
+            case 2: al.printParts(); break;
             case 3: takeFlights(al); break;
-            case 4: inspectionReport(al); cout << "b"; break;
+            case 4: inspectionReport(al); break;
         }
     }
     cout<<"exiting program"<<endl;
